@@ -1,0 +1,53 @@
+body {
+  background: url(https://secure.static.tumblr.com/a747fe2974ba55029a0fc78af9563bd7/a2jwbw5/Bhqnnn21k/tumblr_static_tumblr_static_bm4etifteuossg4ow0848w0oo_640.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+h1 {
+  color: white;
+  font-size:45px;
+  font-family: Georgia, Times, serif;
+  font-weight:bold;
+  margin-top:25px;
+  margin-bottom:5px;
+}
+.quotebox{  
+  color:white;
+  font-size: 30px;
+  font-family: Courier, Monaco, monospace;
+  background: #c0392b;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 2%;
+  opacity: 0.9;
+  width:50%;
+  margin:10px auto 10px auto;
+  height:auto;
+}
+.author{
+  position: relative;
+  font-style:italic;
+  font-size: 25px;  
+}
+div.button{
+  display: inline-block; 
+  padding: 10px 20px 10px 10px;
+}
+#btnNewQuote{
+  position:static;
+  font-style: bold;
+  vertical-align: top;
+}
+#btnTweet{
+  position:static;
+  background: #1b5fd2;
+  color: white;
+  vertical-align: top;
+}
+.footer {
+  font-size: 15px;
+  font-style: bold;
+  font-family: Courier, Monaco, monospace;
+  color: #FFFF66;
+  margin-top: 10px;
+}
+

@@ -1,0 +1,69 @@
+<div ng-app='TwitchApp' ng-controller='twitchCtrl' class="container-fluid jumbotron text-center">
+  <h2>{{title.heading1}}</h2>
+ 
+  <div class="btn-group btn-group-justified" >
+    <span class="btn btn-primary" ng-click="clickBtnALL()"> ALL </span>
+    <span class="btn btn-success" ng-click="clickBtnON()"> Online </span>
+    <span class="btn btn-warning" ng-click="clickBtnOFF()"> Offline </span>    
+  </div>
+  <hr>
+  
+  <div id="ALL" class="container-fluid" ng-click="clickBtnALL()" ng-hide="{{flagALL}}">
+    <div   ng-repeat="item in arrResults"  ng-hide="{{flagALL}}">      
+      <div class="row"  
+           ng-style="arrResults[$index].streamCheck ==='Online' && {'background-color' : 'lightgreen'}">
+        <span class="col-sm-8 logo">
+         <a ng-href="https://www.twitch.tv/{{item.name}}" target="blank">
+           <img ng-src="{{item.logo}}" alt="&#x1F603;"/> 
+           <b class="displayName">{{item.display_name}}</b>           
+         </a>          
+        </span>        
+        <span class="col-sm-3 streamCheck"><b>{{item.streamCheck}}</b></span>        
+        <span class="col-sm-12 status" ng-show="arrResults[$index].streamCheck ==='Online'">
+            <i>{{item.status}}</i></span>          
+       </div> <!-- End of the ROW-->       
+    </div><!-- end of loop ng-repeat-->      
+  </div><!-- end of the clickBtnALL()-->
+  
+  
+    <div id="ON" class="container-fluid" ng-click="clickBtnON()" ng-hide="{{flagON}}" >
+    <div  ng-repeat="item in arrResults" ng-hide="{{flagON}}">      
+      <div class="row"  
+           ng-style="arrResults[$index].streamCheck ==='Online' && {'background-color' : 'lightgreen'}"
+           ng-show="arrResults[$index].streamCheck ==='Online'">        
+        
+        <span class="col-md-8 logo">
+          <a ng-href="https://www.twitch.tv/{{item.name}}" target="_blank">
+            <img ng-src="{{item.logo}}" alt="&#x1F603;"/>
+            <b class="displayName">{{item.display_name}}</b>
+          </a>
+        </span>       
+        
+        <span class="col-md-3 streamCheck"><b>{{item.streamCheck}}</b></span>
+        <span class="col-md-12 status" ng-show="arrResults[$index].streamCheck ==='Online'">
+          <b><i>{{item.status}}</i></b></span>          
+       </div> <!-- End of the ROW-->       
+    </div><!-- end of loop ng-repeat-->      
+  </div><!-- end of the clickBtnON()--> 
+  
+  
+   <div id="OFF" class="container-fluid" ng-click="clickBtnOFF()" ng-hide="{{flagOFF}}" >
+    <div ng-repeat="item in arrResults"  ng-hide="{{flagOFF}}">      
+      <div class="row"  
+           ng-style="arrResults[$index].streamCheck =='Offline' && {'background-color' : '#ffcd94'}" ng-show="arrResults[$index].streamCheck =='Offline'">        
+        <span class="col-sm-8 logo">
+          <a ng-href="https://www.twitch.tv/{{item.name}}" target="_blank">
+            <img ng-src="{{item.logo}}" alt="&#x1F603;"/>
+            <b class="displayName">{{item.display_name}}</b>
+          </a>
+        </span>        
+        
+        <span class="col-sm-3 streamCheck"><b>{{item.streamCheck}}</b></span>                 
+       </div> <!-- End of the ROW-->       
+    </div><!-- end of loop ng-repeat-->      
+  </div><!-- end of the clickBtnON()-->   
+</div>
+
+<div class="footer text-center">
+  <a class="footer" href="https://www.freecodecamp.com/atiur001" target="_blank"><b>coded by Artiom</b></a>
+</div>

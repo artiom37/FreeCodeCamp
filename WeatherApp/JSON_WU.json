@@ -1,0 +1,294 @@
+http://api.wunderground.com/api/c6564d8ae655659c/geolookup/conditions/q/25.787966899999997,-80.2203877.json
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"FL",
+		"city":"Miami",
+		"tz_short":"EDT",
+		"tz_long":"America/New_York",
+		"lat":"25.780000",
+		"lon":"-80.220000",
+		"zip":"33125",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:33125.1.99999",
+		"requesturl":"US/FL/Miami.html",
+		"wuiurl":"https://www.wunderground.com/US/FL/Miami.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Miami", "state":"FL", "country":"US", "icao":"KMIA", "lat":"25.78804970", "lon":"-80.31693268" }
+		,{ "city":"Opa Locka", "state":"FL", "country":"US", "icao":"KOPF", "lat":"25.91016960", "lon":"-80.28282928" }
+		,{ "city":"", "state":"", "country":"", "icao":"", "lat":"", "lon":"" }
+		,{ "city":"Kendall", "state":"FL", "country":"US", "icao":"KTMB", "lat":"25.64226913", "lon":"-80.43466949" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"U of Miami Health System WeatherSTEM",
+		"city":"Miami",
+		"state":"FL",
+		"country":"US",
+		"id":"KFLMIAMI208",
+		"lat":25.787811,
+		"lon":-80.215965,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Downtown Miami",
+		"city":"Miami",
+		"state":"FL",
+		"country":"US",
+		"id":"KFLMIAMI135",
+		"lat":25.769636,
+		"lon":-80.195358,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Little Havana-West Flagler Street in Miami Florida",
+		"city":"Miami",
+		"state":"FL",
+		"country":"US",
+		"id":"KFLMIAMI273",
+		"lat":25.771318,
+		"lon":-80.248863,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Downtown Miami",
+		"city":"Miami",
+		"state":"FL",
+		"country":"US",
+		"id":"KFLMIAMI153",
+		"lat":25.785210,
+		"lon":-80.190079,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Edgewater",
+		"city":"Miami",
+		"state":"FL",
+		"country":"US",
+		"id":"KFLMIAMI177",
+		"lat":25.793741,
+		"lon":-80.190819,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"The Vue at Brickell",
+		"city":"Miami",
+		"state":"FL",
+		"country":"US",
+		"id":"KFLMIAMI218",
+		"lat":25.761673,
+		"lon":-80.193413,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"1101 Brickell",
+		"city":"Miami",
+		"state":"FL",
+		"country":"US",
+		"id":"KFLMIAMI283",
+		"lat":25.763294,
+		"lon":-80.190941,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Coral Way",
+		"city":"Miami",
+		"state":"FL",
+		"country":"US",
+		"id":"KFLMIAMI146",
+		"lat":25.754641,
+		"lon":-80.199379,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Downtown Miami",
+		"city":"Miami",
+		"state":"FL",
+		"country":"US",
+		"id":"KFLMIAMI125",
+		"lat":25.771650,
+		"lon":-80.185165,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Coconut Grove Center",
+		"city":"Miami",
+		"state":"FL",
+		"country":"US",
+		"id":"KFLMIAMI258",
+		"lat":25.734478,
+		"lon":-80.243546,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Dilido Island",
+		"city":"Miami Beach",
+		"state":"FL",
+		"country":"US",
+		"id":"KFLMIAMI109",
+		"lat":25.789051,
+		"lon":-80.159882,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Upper East Side",
+		"city":"Miami",
+		"state":"FL",
+		"country":"US",
+		"id":"KFLMIAMI215",
+		"lat":25.821093,
+		"lon":-80.178764,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"U of Miami Rosenstiel School WeatherSTEM",
+		"city":"Miami",
+		"state":"FL",
+		"country":"US",
+		"id":"KFLMIAMI207",
+		"lat":25.732304,
+		"lon":-80.162712,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Coconut Grove",
+		"city":"Coral Gables",
+		"state":"FL",
+		"country":"US",
+		"id":"KFLCORAL38",
+		"lat":25.709703,
+		"lon":-80.251724,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"U of Miami Hecht Athletic Center WeatherSTEM",
+		"city":"Coral Gables",
+		"state":"FL",
+		"country":"US",
+		"id":"KFLCORAL45",
+		"lat":25.714424,
+		"lon":-80.282349,
+		"distance_km":9,
+		"distance_mi":5
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Miami, FL",
+		"city":"Miami",
+		"state":"FL",
+		"state_name":"Florida",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"33125",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"25.780000",
+		"longitude":"-80.220000",
+		"elevation":"12.00000000"
+		},
+		"observation_location": {
+		"full":"U of Miami Health System WeatherSTEM, Miami, Florida",
+		"city":"U of Miami Health System WeatherSTEM, Miami",
+		"state":"Florida",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"25.787811",
+		"longitude":"-80.215965",
+		"elevation":"68 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KFLMIAMI208",
+		"observation_time":"Last Updated on September 11, 9:23 PM EDT",
+		"observation_time_rfc822":"Sun, 11 Sep 2016 21:23:15 -0400",
+		"observation_epoch":"1473643395",
+		"local_time_rfc822":"Sun, 11 Sep 2016 21:24:54 -0400",
+		"local_epoch":"1473643494",
+		"local_tz_short":"EDT",
+		"local_tz_long":"America/New_York",
+		"local_tz_offset":"-0400",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"81.6 F (27.6 C)",
+		"temp_f":81.6,
+		"temp_c":27.6,
+		"relative_humidity":"82%",
+		"wind_string":"From the East at 14.0 MPH",
+		"wind_dir":"East",
+		"wind_degrees":96,
+		"wind_mph":14.0,
+		"wind_gust_mph":0,
+		"wind_kph":22.5,
+		"wind_gust_kph":0,
+		"pressure_mb":"1016",
+		"pressure_in":"30.02",
+		"pressure_trend":"0",
+		"dewpoint_string":"76 F (24 C)",
+		"dewpoint_f":76,
+		"dewpoint_c":24,
+		"heat_index_string":"88 F (31 C)",
+		"heat_index_f":88,
+		"heat_index_c":31,
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"88 F (31 C)",
+		"feelslike_f":"88",
+		"feelslike_c":"31",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"0",
+		"UV":"0.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.03 in (1 mm)",
+		"precip_today_in":"0.03",
+		"precip_today_metric":"1",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/FL/Miami.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KFLMIAMI208",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=25.787811,-80.215965",
+		"nowcast":""
+	}
+}

@@ -1,0 +1,32 @@
+
+<div ng-app='WikiApp' ng-controller='wikiCtrl' class="container-fluid jumbotron text-center">
+  <h1>{{title.heading1}}</h1>
+  <h1>{{title.heading2}}</h1>  
+  <p>
+    <a ng-href="{{randomSearchLink}}" target="blank">
+       <img ng-src="{{randomSearchIMG}}"/>
+    </a>
+    <input  type="text" ng-model="searchVal" ng-keypress="EnterKey($event)" placeholder=" WikiSearch...">
+    <a class="btn" ng-click="ClickSearch()">
+       <img ng-src="{{searchIMG}}"/>
+    </a>
+  </p>
+  
+  <div id="nada" class="text-center" ng-show="arrSearchResults[0].length==0">
+    <p>Nothing's found for your search. Try again !!!</p>
+  </div>
+  
+  <div> 
+    <span id="searchData" ng-repeat = "item in arrSearchResults[0]">
+      <a ng-href="{{arrSearchResults[2][$index]}}" target="_blank">
+        <h2><b>{{item}}</b></h2>
+      </a>
+      <h3>{{arrSearchResults[1][$index]}}</h3>
+      <hr>   
+  </div>
+</div>
+
+<div class="footer text-center">
+  <a class="footer" href="https://www.freecodecamp.com/atiur001" target="_blank"><b>coded by Artiom</b></a>
+</div>
+
